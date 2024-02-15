@@ -1,0 +1,52 @@
+import { Location } from '@/types';
+export const mockLocations: Location[] = [
+  {
+    id: 15,
+    lat: -53.40982909713898,
+    long: -70.77214116067644,
+    detail: {
+      id: 15,
+      name: 'Greedo',
+      height: 1.74,
+      mass: 74,
+      gender: 'male',
+      homeworld: [''],
+      wiki: 'http://starwars.wikia.com/wiki/Greedo',
+      image:
+        'https://vignette.wikia.nocookie.net/starwars/images/c/c6/Greedo.jpg',
+      died: 0,
+      diedLocation: 'tatooine',
+      species: 'rodian',
+      eyeColor: 'purple',
+      skinColor: 'green',
+      affiliations: [''],
+      born: -44,
+      formerAffiliations: [],
+    },
+  },
+  {
+    id: 16,
+    lat: 48.86073105269455,
+    long: 2.3376010893995893,
+    detail: {
+      id: 16,
+      name: 'Jabba Desilijic Tiure',
+      height: 3.9,
+      mass: 1358,
+      gender: 'male',
+      homeworld: 'tatooine',
+      wiki: 'http://starwars.wikia.com/wiki/Jabba_Desilijic_Tiure',
+      image:
+        'https://vignette.wikia.nocookie.net/starwars/images/7/7f/Jabba_SWSB.png',
+      born: -600,
+      died: 4,
+      diedLocation: 'tatooine',
+      species: 'hutt',
+      eyeColor: 'orange',
+      skinColor: 'green and tan',
+      kajidic: 'Desilijic',
+      affiliations: [''],
+      formerAffiliations: [],
+    },
+  },
+];
