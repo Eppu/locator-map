@@ -1,6 +1,8 @@
 # Entity Locator App
 
-This is a simple Next.js app that allows users to see the location of entities on a map, and to determine their distance to them by clicking on it.
+This is a simple Next.js app that allows users to see the location of entities on a map, and to determine their distance to them by clicking on it. 
+
+The app uses Next.js, TypeScript and Leaflet as its main technologies. Testing is done through Jest, but I currently lack the time to work on proper unit or E2E tests.
 
 ## Technologies Used
 
